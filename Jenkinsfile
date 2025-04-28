@@ -1,3 +1,4 @@
+//docker run -d --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock --group-add 0 my-custom-jenkins:latest
 pipeline {
     // Agent: Specify where the pipeline will run.
     // 'any' means Jenkins can use any available agent.
